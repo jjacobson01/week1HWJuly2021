@@ -1,0 +1,107 @@
+
+ /*column 1*/
+ #brochure {
+    display: flex;
+    height: 700px;
+    border-left: 1px solid black;
+
+}
+
+#brochure>div {
+    width: 20%;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    border-right: 10px solid;
+    font-family: 'Open Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+}
+
+#follow {
+
+    flex: 2;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+}
+
+#socialMedia {
+    flex: 2;
+    position: relative;
+    top: 10%;
+    font-size: 25px;
+}
+
+.cell3 {
+    flex: 2;
+}
+
+
+/*column 2*/
+#flag {
+    flex: 2;
+    position: relative;
+    top: 5%;
+}
+
+.underline {
+    flex: 1;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.info {
+    flex: 3;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+img {
+    width: 250px;
+    height: 175px;
+}
+
+/*column 3*/
+#close {
+    border-right: 1px solid;
+}
+
+#vit {
+
+    padding-top: 35px;
+
+    width: 125px;
+    height: 75px;
+}
+
+#auction {
+
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 900;
+   
+    width: 350px;
+    text-align: center;
+
+    font-size: 40px;
+    font-stretch: extra-condensed;
+    
+  
+    font-family: monospace;
+}
+
+#music{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    
+}
